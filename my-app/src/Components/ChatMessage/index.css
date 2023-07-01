@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.profile-container{
+    background-color: red;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-family: "Roboto";
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree Serif";
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   margin-bottom: 15px;
+}
+.profile-name-container{
+    display: flex;
+    align-items: center;
+}
+.name-time-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.name-message-container{
+    display: flex;
+    flex-direction: column;
+    align-self: start; 
+    height: 10px;
+}
+.message{
+    margin-left: 40px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    min-height: 20px;
+
+    
+}
+.time{
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Roboto";
+    margin-top: 18px;
+    font-weight: 500;
+}
+.name{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.msg-like-container{
+    display: flex;
+    align-items: center;
+}
+.linke-btn{
+    background-color: rgb(126, 184, 247);
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    outline: none;
+    color: rgb(9, 58, 127);
+    margin-left: 15px;
+    outline: none;
+    border: none;
+}
+.like-count{
+    margin-left: 10px;
+    font-size: 18px;
+    
+}
